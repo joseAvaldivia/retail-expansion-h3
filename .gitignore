@@ -1,0 +1,21 @@
+# Entorno
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Nunca subir datos reales ni archivos de oficina
+*.xlsx
+*.xls
+*.pptx
+*.docx
+*.pdf
+*.parquet
+*.zip
+*.rar
+.env
+
+# Salidas regeneradas por python -m expansion_h3
+salidas/
